@@ -2,12 +2,12 @@
 public class CH_3 {
 	
 	public static void main(String[] args) {
-		//ÁÖ¼®
+		//ì£¼ì„
 		/*
-		 * ÄÄÆÄÀÏ·¯°¡ ÄÄÆÄÀÏ ÇÏÁö ¾Ê´Â ¿µ¿ª
+		 * ì»´íŒŒì¼ëŸ¬ê°€ ì»´íŒŒì¼ í•˜ì§€ ì•ŠëŠ” ì˜ì—­
 		 */
-		// Æ¯¼ö ¹®ÀÚ
-		// \t : ÅÇ, \n : ÁÙ ¹Ù²Ş, \' : ÀÛÀº µû¿ÈÇ¥, \" : Å« µû¿ÈÇ¥, \\ : ¿ª½½·¡½¬
+		// íŠ¹ìˆ˜ ë¬¸ì
+		// \t : íƒ­, \n : ì¤„ ë°”ê¿ˆ, \' : ì‘ì€ ë”°ì˜´í‘œ, \" : í° ë”°ì˜´í‘œ, \\ : ì—­ìŠ¬ë˜ì‰¬
 		
 		System.out.println("Good\tMorning");
 		System.out.println("Good\nMorning");
@@ -15,40 +15,40 @@ public class CH_3 {
 		System.out.println("Good\"Morning\"");
 		System.out.println("Good\\Morning\\");
 		
-		// ¼­½Ä ¹®ÀÚ
-		// printf()¸Ş¼­µå ÀÌ¿ë : ¿©±â¼­ f´Â format(Çü½Ä)À» ¶æ¤¡ÇÑ´Ù
-		// %d : 10Áø¼ö, %o : 8Áø¼ö, %x : 16Áø¼ö, %c : ¹®ÀÚ, %s : ¹®ÀÚ¿­, %f : ½Ç¼ö
-		System.out.println("¿À´ÃÀÇ ±â¿ÂÀº 10µµ ÀÔ´Ï´Ù");
-		System.out.printf("¿À´ÃÀÇ ±â¿ÂÀº %dµµ ÀÔ´Ï´Ù\n", 10); // printf¿¡¼­´Â °³Çà¹®ÀÚ¸¦ Àû¾îÁÖ¾î¾ß ÇàÀÌ ¹Ù²ï´Ù!
+		// ì„œì‹ ë¬¸ì
+		// printf()ë©”ì„œë“œ ì´ìš© : ì—¬ê¸°ì„œ fëŠ” format(í˜•ì‹)ì„ ëœ»í•œë‹¤
+		// %d : 10ì§„ìˆ˜, %o : 8ì§„ìˆ˜, %x : 16ì§„ìˆ˜, %c : ë¬¸ì, %s : ë¬¸ìì—´, %f : ì‹¤ìˆ˜
+		System.out.println("ì˜¤ëŠ˜ì˜ ê¸°ì˜¨ì€ 10ë„ ì…ë‹ˆë‹¤");
+		System.out.printf("ì˜¤ëŠ˜ì˜ ê¸°ì˜¨ì€ %dë„ ì…ë‹ˆë‹¤\n", 10); // printfì—ì„œëŠ” ê°œí–‰ë¬¸ìë¥¼ ì ì–´ì£¼ì–´ì•¼ í–‰ì´ ë°”ë€ë‹¤!
 		int num1 = 20;
-		System.out.println("¿À´ÃÀÇ ±â¿ÂÀº " + num1 + "ÀÔ´Ï´Ù");
+		System.out.println("ì˜¤ëŠ˜ì˜ ê¸°ì˜¨ì€ " + num1 + "ì…ë‹ˆë‹¤");
 		int num2 = 15;
-		// º¯¼ö¸¦ ³ÖÀ»¶§´Â println´ë½Å printf¸¦ »ç¿ëÇÏÀÚ!
-		System.out.printf("num2(10Áø¼ö) : %d\n", num2);
-		System.out.printf("num2(8Áø¼ö) : %o\n", num2);
-		System.out.printf("num2(16Áø¼ö) : %x\n", num2);
+		// ë³€ìˆ˜ë¥¼ ë„£ì„ë•ŒëŠ” printlnëŒ€ì‹  printfë¥¼ ì‚¬ìš©í•˜ì!
+		System.out.printf("num2(10ì§„ìˆ˜) : %d\n", num2);
+		System.out.printf("num2(8ì§„ìˆ˜) : %o\n", num2);
+		System.out.printf("num2(16ì§„ìˆ˜) : %x\n", num2);
 		
-		System.out.printf("¼Ò¹®ÀÚ \'%c\'ÀÇ ´ë¹®ÀÚ´Â \'%c\' ÀÔ´Ï´Ù.\n", 'a', 'A');
-		System.out.printf("\'%s\'¸¦ ´ë¹®ÀÚ·Î ¹Ù²Ù¸é \'%s\'ÀÔ´Ï´Ù.\n", "java", "JAVA");
+		System.out.printf("ì†Œë¬¸ì \'%c\'ì˜ ëŒ€ë¬¸ìëŠ” \'%c\' ì…ë‹ˆë‹¤.\n", 'a', 'A');
+		System.out.printf("\'%s\'ë¥¼ ëŒ€ë¬¸ìë¡œ ë°”ê¾¸ë©´ \'%s\'ì…ë‹ˆë‹¤.\n", "java", "JAVA");
 		
-		// ½Ç¼ö´Â ¼ıÀÚ µÚ¿¡ f, d ºÙÀÌÀÚ!
+		// ì‹¤ìˆ˜ëŠ” ìˆ«ì ë’¤ì— f, d ë¶™ì´ì!
 		float f = 1.23f;
 		double d = 1.23456d;
 		System.out.printf("f = %f\n", f);
 		System.out.printf("d = %f\n", d);
 		
-		// ¼­½Ä ¹®ÀÚ Á¤·Ä ±â´É
-		// ¿©±ä ¿ŞÁ· Á¤·Ä
+		// ì„œì‹ ë¬¸ì ì •ë ¬ ê¸°ëŠ¥
+		// ì—¬ê¸´ ì™¼ì¡± ì •ë ¬
 		System.out.printf("%d\n", 123);
 		System.out.printf("%d\n", 1234);
 		System.out.printf("%d\n", 12345);
 		
-		// ¿©±ä ¿À¸¥ÂÊ Á¤·Ä
+		// ì—¬ê¸´ ì˜¤ë¥¸ìª½ ì •ë ¬
 		System.out.printf("%5d\n", 123);
 		System.out.printf("%5d\n", 1234);
 		System.out.printf("%5d\n", 12345);
 		
-		// ¼­½Ä¹®ÀÚ ¼Ò¼öÁ¡ Á¦ÇÑ ±â´É
+		// ì„œì‹ë¬¸ì ì†Œìˆ˜ì  ì œí•œ ê¸°ëŠ¥
 		System.out.printf("%f\n", 1.23);
 		System.out.printf("%.0f\n", 1.23);
 		System.out.printf("%.1f\n", 1.23);
