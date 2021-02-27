@@ -54,6 +54,7 @@ public class CH_3 {
 		System.out.printf("%.1f\n", 1.23); // 1.2로 출력
 		System.out.printf("%.2f\n", 1.23); // 1.23으로 출력
 		System.out.printf("%.3f\n", 1.23); // 1.230으로 출력
+		
 	}
 
 }
