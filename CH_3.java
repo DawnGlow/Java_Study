@@ -38,7 +38,7 @@ public class CH_3 {
 		System.out.printf("d = %f\n", d);
 		
 		// 서식 문자 정렬 기능
-		// 여긴 왼족 정렬
+		// 여긴 왼 정렬
 		System.out.printf("%d\n", 123);
 		System.out.printf("%d\n", 1234);
 		System.out.printf("%d\n", 12345);
