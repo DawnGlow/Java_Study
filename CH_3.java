@@ -49,11 +49,11 @@ public class CH_3 {
 		System.out.printf("%5d\n", 12345);
 		
 		// 서식문자 소수점 제한 기능
-		System.out.printf("%f\n", 1.23);
-		System.out.printf("%.0f\n", 1.23);
-		System.out.printf("%.1f\n", 1.23);
-		System.out.printf("%.2f\n", 1.23);
-		System.out.printf("%.3f\n", 1.23);
+		System.out.printf("%f\n", 1.23); // 기본은 소수점 6자리까지
+		System.out.printf("%.0f\n", 1.23); // 1로 출력
+		System.out.printf("%.1f\n", 1.23); // 1.2로 출력
+		System.out.printf("%.2f\n", 1.23); // 1.23으로 출력
+		System.out.printf("%.3f\n", 1.23); // 1.230으로 출력
 	}
 
 }
